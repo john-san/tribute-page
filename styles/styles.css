@@ -1,8 +1,38 @@
 main {
-    text-align: center;
+	text-align: center;
+	background: #EDEDEE;
+	padding-top: 25px 10px;
+	border-radius: 4px;
 }
 
+#title {
+	padding-top: 15px;
+}
+
+#img-div {
+	background: #fff;
+	border-radius: 4px;
+	margin: 10px 6px;
+  padding: 16px 8px;
+}
 #img-div img {
     max-width: 100%;
     height: auto;
+}
+
+#img-caption {
+	padding: 8px 0 0 0;
+}
+
+#tribute-info {
+	text-align: left;
+	line-height: 1.75;
+	padding: 0 8px 8px 8px;
+}
+
+@media(min-width: 768px) {
+	#tribute-info {
+		max-width: 80%;
+		margin: 0 auto;
+	}
 }
